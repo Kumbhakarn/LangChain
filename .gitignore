@@ -1,5 +1,8 @@
 .env/
 venv/
+*.csv
+*.pdf
+10.Documents_Loaders/Book/**/*.pdf
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

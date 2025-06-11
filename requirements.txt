@@ -1,0 +1,33 @@
+# Core LangChain and community modules
+langchain
+langchain-core
+langchain-community
+langchain-experimental
+
+# Hugging Face integration
+langchain-huggingface
+transformers
+huggingface-hub
+
+# Environment variable management
+python-dotenv
+
+# Machine learning utilities
+numpy
+scikit-learn
+
+# Data validation and parsing
+pydantic
+
+# Streamlit web UI
+streamlit
+
+# Vector store backend (choose one)
+faiss-cpu  # Use this for most CPU-based setups
+# faiss-gpu  # Uncomment if using GPU with compatible CUDA
+ 
+langchain-groq
+pypdf
+beautifulsoup4
+wikipedia
+duckduckgo-search

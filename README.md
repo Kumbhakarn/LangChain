@@ -22,8 +22,8 @@ A comprehensive collection of examples and components from the LangChain ecosyst
 Clone the repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/your-username/LangChain_Ecosystem_Complete.git
-cd LangChain_Ecosystem_Complete
+git clone https://github.com/your-username/LangChain.git
+cd LangChain
 pip install -r requirements.txt
 ````
 

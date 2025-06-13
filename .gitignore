@@ -3,6 +3,10 @@ venv/
 *.csv
 *.pdf
 10.Documents_Loaders/Book/**/*.pdf
+# Ignore the registration_db database file
+registration_db
+registration_db.sqlite
+registration_db.db
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

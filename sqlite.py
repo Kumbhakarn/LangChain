@@ -53,5 +53,4 @@ VALUES (?, ?, ?, ?, ?)
 # Commit and close connection
 connection.commit()
 connection.close()
-
 print(" Table created and 20 records inserted successfully.")

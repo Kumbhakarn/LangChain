@@ -6,7 +6,7 @@ load_dotenv()
 
 llm = HuggingFaceEndpoint(
     repo_id="HuggingFaceH4/zephyr-7b-beta",
-    task="text-generation"  
+    task='text-generation'  
 )
 
 model = ChatHuggingFace(llm=llm)

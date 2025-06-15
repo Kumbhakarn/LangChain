@@ -16,6 +16,7 @@ loader = DirectoryLoader(
 # It is taking time to load the data so imagine that we have 100 of pdf 
 # the at that time we can use 'lazy load' functionality using langchain
 
+# --------------------------
 
 # | Aspect           | `load()`                        | `lazy_load()`                               |
 # | ---------------- | ------------------------------- | ------------------------------------------- |
@@ -25,6 +26,7 @@ loader = DirectoryLoader(
 # | **Performance**  | Faster for small files          | Scales better for large files or many files |
 # | **Use case**     | Small files, fast access needed | Large files, batch processing, low RAM      |
 
+# -------------------------------
 
 # Lazy Loader implemention
 docs = loader.lazy_load()

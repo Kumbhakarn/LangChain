@@ -4,7 +4,7 @@ import os
 # PyPDf Loader But not that efficient 
 # wher we have textual data in our pdf 
 # if we have scaneed images then we have to user other pdf loaders
-
+# ----------
 # Simple pdf loader = PypdfLoader
 # PDFs with tables/columns- PDFlumberloader
 # PDFs with scanned/images- UnstructuredPDFloader / AmazonTextractPDFloader

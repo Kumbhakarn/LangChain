@@ -8,7 +8,7 @@ load_dotenv()
 # import a model
 model = ChatGroq(
     model_name = "llama3-8b-8192",
-    temperature=0.5,
+    temperature=0.7,
     streaming=False
 )
 

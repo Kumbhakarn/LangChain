@@ -23,7 +23,7 @@ parser = StrOutputParser()
 
 
 
-file_path = "8.LangChainRunnables/speech.txt"
+file_path = '8.LangChainRunnables/speech.txt'
 # Object loader
 loader = TextLoader(file_path)
 # Call the funcion loader.load to

@@ -8,4 +8,5 @@ print("Single Document Objec: 2nd row: ",docs[1])
 print('*'*50)
 print("Number of rows: ",len(docs))
 
+
 # it makes every row one doc object

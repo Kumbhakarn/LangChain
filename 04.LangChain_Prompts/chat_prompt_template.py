@@ -1,12 +1,14 @@
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.messages import SystemMessage,HumanMessage
 
+# Method-1
 chat_template = ChatPromptTemplate.from_messages([
     ('system','You are a helpful {domain} expert'),
     ('human','Explain in simple terms, what is {topic}')
 ])
 
-# This code will also wo rk
+# Method-2
+# This code will also work
 # chat_template = ChatPromptTemplate.from_messages([
 #     ('system','You are a helpful {domain} expert'),
 #     ('human','Explain in simple terms, what is {topic}')

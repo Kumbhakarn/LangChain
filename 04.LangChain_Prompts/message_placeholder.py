@@ -1,7 +1,7 @@
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 import os
 
-# chat template
+# ChatPromptTemplate
 
 chat_template = ChatPromptTemplate([
     ('system','you are a helpful customer support agent'),
@@ -24,6 +24,5 @@ else:
 print(chat_history)
 
 # create prompt
-
 prompt = chat_template.invoke({'chat_history':chat_history,'query':'where is my refund'})
 print(prompt)

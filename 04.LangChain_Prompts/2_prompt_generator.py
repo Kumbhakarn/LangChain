@@ -21,7 +21,7 @@ paper_input = st.selectbox( "Select Research Paper Name", ["Attention Is All You
 style_input = st.selectbox( "Select Explanation Style", ["Beginner-Friendly", "Technical", "Code-Oriented", "Mathematical"] ) 
 length_input = st.selectbox( "Select Explanation Length", ["Short (1-2 paragraphs)", "Medium (3-5 paragraphs)", "Long (detailed explanation)"] )
 
-# template
+# PromptTemplate Syntax
 template = PromptTemplate(
     template="""
 Please summarize the research paper titled "{paper_input}" with the following specifications:

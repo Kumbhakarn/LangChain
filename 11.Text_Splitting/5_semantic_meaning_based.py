@@ -15,7 +15,6 @@ Farmers were working hard in the fields, preparing the soil and planting seeds f
 
 Terrorism is a big danger to peace and safety. It causes harm to people and creates fear in cities and villages. When such attacks happen, they leave behind pain and sadness. To fight terrorism, we need strong laws, alert security forces, and support from people who care about peace and safety.
 """
-
 docs = text_splitter.create_documents([sample])
 print(len(docs))
 print(docs)

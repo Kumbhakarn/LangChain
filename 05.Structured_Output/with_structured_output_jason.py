@@ -3,6 +3,7 @@ from dotenv import load_dotenv
 from typing import TypedDict, Annotated, Optional, Literal
 from pydantic import BaseModel, Field
 
+# Load Environment Variables
 load_dotenv()
 
 model = ChatOpenAI()

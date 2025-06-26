@@ -9,6 +9,7 @@ class Student(BaseModel):
     'representating the cgpa of the student') # constrains
     # We can add regular expressions as well
 
+
 new_student = {'age':'32','email':'abc123@gmail.com','cgpa':9} # Typecorsing
 
 student = Student(**new_student) 

@@ -1,3 +1,4 @@
+# Structured Output Pydandic 
 from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
 from pydantic import BaseModel, Field
